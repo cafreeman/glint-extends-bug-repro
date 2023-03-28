@@ -1,0 +1,24 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "check": "glint"
+  },
+  "keywords": [],
+  "author": "Chris Freeman",
+  "license": "ISC",
+  "devDependencies": {
+    "config": "workspace:*",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@glimmer/component": "^1.1.2",
+    "@glint/core": "1.0.0-beta.4",
+    "@glint/environment-ember-loose": "1.0.0-beta.4",
+    "@glint/environment-ember-template-imports": "1.0.0-beta.4",
+    "@glint/template": "1.0.0-beta.4",
+    "ember-template-imports": "^3.4.2"
+  }
+}
